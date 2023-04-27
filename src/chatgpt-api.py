@@ -5,7 +5,7 @@ NAME
 VERSION
         1.0
 AUTHOR
-    Hely Salgado 
+    Hely Salgado, Shirley Alquicira 
 
 DESCRIPTION
 
@@ -60,7 +60,7 @@ def main():
     print("💬 [bold green]ChatGPT API en Python[/bold green]")
 
     table = Table("Comando", "Descripción")
-    table.add_row("exit", "Salir de la aplicación")
+    table.add_row("exit", "Abandonar la app")
     table.add_row("new", "Crear una nueva conversación")
 
     print(table)
